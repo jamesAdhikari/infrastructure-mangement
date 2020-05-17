@@ -1,13 +1,13 @@
 call(Map param){
   pipeline{
     agent {
-      label pipelineParams.agent
+      label params.agent
     }
     stages {
         stage('Build Process') {
          steps {
               script {
-              gitUtils.checkout(params.url, pipelineParms.branch)
+              gitUtils.checkout(params.url, params.branch)
 
               }
 
