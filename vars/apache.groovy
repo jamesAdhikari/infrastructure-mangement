@@ -1,4 +1,4 @@
-call(Map pipelineParams){
+call(Map param){
   pipeline{
     agent {
       label pipelineParams.agent
@@ -7,7 +7,7 @@ call(Map pipelineParams){
         stage('Build Process') {
          steps {
               script {
-              gitUtils.checkout(pipelineParams.infrastructureManagementUri, pipelineParms.infrastructureMangementBranch)
+              gitUtils.checkout(params.url, pipelineParms.branch)
 
               }
 
