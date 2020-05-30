@@ -1,6 +1,6 @@
 
 [dev]
-172.31.66.50
-172.31.85.55
-172.31.81.61
-172.31.65.14
+ansible3 ansible_host=100.25.205.213
+ansible2 ansible_host=107.23.205.174
+jenkins ansible_host=3.83.191.207
+ansible1 ansible_host=3.86.13.40
