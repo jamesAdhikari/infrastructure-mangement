@@ -1,0 +1,10 @@
+---
+- name: this is to build sprint boot application
+  hosts: ansible3
+  tasks:
+    - name: build sprintboot application
+      shell: cd /tmp/workspace/test-pipeline/spring-boot-rest-example; mvn install
+    
+    - name: deploy code
+      shell: cd /tmp/workspace/test-pipeline/spring-boot-rest-example/target; nohup java -jar spring-boot-rest-example-0.5.0.war > /dev/null 2>&1        
+
