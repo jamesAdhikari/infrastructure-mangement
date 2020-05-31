@@ -1,6 +1,0 @@
----
-- name: this is to build sprint boot application
-  hosts: ansible3
-  tasks:
-    - name: build sprintboot application
-      shell: cd /tmp/workspace/test-pipeline/spring-boot-rest-example; mvn install
