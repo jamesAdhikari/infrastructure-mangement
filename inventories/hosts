@@ -1,5 +1,5 @@
 
 [dev]
-ansible1 ansible_host=54.158.222.41
-ansible2 ansible_host=34.207.64.33
-ansible3 ansible_host=18.204.10.86
+ansible1 ansible_host=54.160.112.112
+ansible2 ansible_host=18.234.130.132
+ansible3 ansible_host=54.236.16.84
